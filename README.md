@@ -1,8 +1,20 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Este proyecto es un portfolio personal hecho con React + Vite.
+Se realizó tomando como base la explicacion de: https://www.freecodecamp.org/news/build-portfolio-website-react/
+usando vite + js: npx create vite my-portfolio
 
-Currently, two official plugins are available:
+Componentes del portafolio:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Navbar: Barra de navegación
+About: Sección "Acerca de mí".
+Projects: Lista de proyectos.
+Skills: Habilidades tecnológicas.
+Contact: Formulario de contacto.
+
+## Instalación en la carpeta del proyecto
+
+- npm install
+- npm install @heroicons/react
+- npm install -D tailwindcss
+- npx tailwindcss init
