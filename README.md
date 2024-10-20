@@ -3,6 +3,8 @@
 Este proyecto es un portfolio personal hecho con React + Vite.
 Se realizó tomando como base la explicacion de: https://www.freecodecamp.org/news/build-portfolio-website-react/
 usando vite + js: npx create vite my-portfolio
+Se usa además nodejs y express para el backend.
+Y mongodb para la base de datos.
 
 Componentes del portafolio:
 

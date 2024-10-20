@@ -10,13 +10,24 @@ export default function Contact() {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
+
+    if (!name || !email || !message) {
+      setStatus("Por favor completa todos los campos.");
+      return;
+    }
     
     try {
       await axios.post("http://localhost:5000/api/contact", {
         name,
         email,
         message,
-      });
+      }, {
+        headers: {
+          'Content-Type': 'application/json',
+        }
+      }
+        
+    );
       setStatus("Mensaje enviado con éxito");
       setName("");
       setEmail("");
@@ -30,7 +41,8 @@ export default function Contact() {
     <section id="contact" className="relative">
       <div className="container px-5 py-10 mx-auto">
         <h1 className="text-3xl font-medium title-font text-white mb-12">Contacto</h1>
-        <form className="w-full md:w-1/2 mx-auto">
+        
+        <form className="w-full md:w-1/2 mx-auto" onSubmit={handleSubmit}>
           <div className="mb-4">
             <input 
               type="text" 
