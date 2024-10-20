@@ -3,6 +3,7 @@ export const projects = [
     title: "Chat GPT to PDF",
     subtitle: "Tecnología Node.js",
     description: "Aplicación que permite generar un chatbot que responda dudas a partir del contenido de un PDF usando la API de OpenAI.",
+    //image: "https://github.com/carolinaluna24/my-portfolio/blob/main/src/assets/chatbot.512x470.png",
     image: "./src/assets/chatbot.512x470.png",
     link: "https://github.com/carolinaluna24/ChatGptPDF"
   },
