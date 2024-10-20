@@ -11,6 +11,12 @@
   },
   "dependencies": {
     "@heroicons/react": "^2.1.5",
+    "axios": "^1.7.7",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.21.1",
+    "mongodb": "^6.9.0",
+    "mongoose": "^8.7.2",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -28,5 +34,10 @@
     "postcss": "^8.4.47",
     "tailwindcss": "^3.4.14",
     "vite": "^5.4.0"
-  }
+  },
+  "description": "Este proyecto es un portfolio personal hecho con React + Vite. Se realizó tomando como base la explicacion de: https://www.freecodecamp.org/news/build-portfolio-website-react/ usando vite + js: npx create vite my-portfolio",
+  "main": "eslint.config.js",
+  "keywords": [],
+  "author": "",
+  "license": "ISC"
 }

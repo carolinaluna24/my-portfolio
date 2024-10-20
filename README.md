@@ -18,3 +18,16 @@ Contact: Formulario de contacto.
 - npm install @heroicons/react
 - npm install -D tailwindcss
 - npx tailwindcss init
+- npm i mongoose
+- npm install mongodb
+
+## En la carpeta del proyecto en backend
+Instalar dependencias en terminal Node.js
+- npm init -y
+- npm install express mongoose dotenv cors
+
+- node server.js
+
+## En la carpeta del proyecto en frontend REACT
+
+- npm install axios

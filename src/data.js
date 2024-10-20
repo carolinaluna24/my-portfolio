@@ -59,7 +59,14 @@ export const projects = [
     image: hackerCat,
     link: "https://github.com/carolinaluna24/NetNTLMtoSilverTicket"
   }
-
+  ,
+  {
+    title: "Página web inventario",
+    subtitle: "Tecnología HTML",
+    description: "Página web básica para mostrar un inventario de productos.",
+    image: html,
+    link: "https://pierna-arriba-online.vercel.app/"
+  }
 ];
 
 

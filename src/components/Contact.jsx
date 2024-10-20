@@ -1,9 +1,30 @@
 import React, { useState } from "react";
+import axios from "axios";
 
 export default function Contact() {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [status, setStatus] = useState("");
+
+
+  const handleSubmit = async (e) => {
+    e.preventDefault();
+    
+    try {
+      await axios.post("http://localhost:5000/api/contact", {
+        name,
+        email,
+        message,
+      });
+      setStatus("Mensaje enviado con éxito");
+      setName("");
+      setEmail("");
+      setMessage("");
+    } catch (error) {
+      setStatus("Error al enviar el mensaje");
+    }
+  };
 
   return (
     <section id="contact" className="relative">
@@ -46,6 +67,7 @@ export default function Contact() {
             Enviar mensaje
           </button>
         </form>
+        {status && <p className="text-white mt-4">{status}</p>}
       </div>
     </section>
   );
