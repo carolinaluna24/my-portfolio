@@ -13,7 +13,6 @@ import python from "./assets/python.512x508.png";
 import react from "./assets/reactjs.512x455.png";
 import github from "./assets/github.512x489.png";
 
-
 export const projects = [
   {
     title: "Chat GPT to PDF",
