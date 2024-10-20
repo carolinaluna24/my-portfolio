@@ -3,23 +3,23 @@ import machineLearning from "./assets/machine-learning.458x512.png";
 import astro from "./assets/astro.512x460.png";
 import colab from "./assets/colab.512x460.png";
 import hackerCat from "./assets/hacker-cat.507x512.png";
-import ntlm from "./assets/ntlm.512x460.png"; 
 import youtube from "./assets/youtube.512x360.png";
-import css from "./assets/css3.451x512.png";
 import html from "./assets/html.451x512.png";
+import css from "./assets/css3.451x512.png";
 import js from "./assets/js-official.512x512.png";
 import nodejs from "./assets/nodejs.512x314.png";
 import openai from "./assets/openai.505x512.png";
 import python from "./assets/python.512x508.png";
 import react from "./assets/reactjs.512x455.png";
-import github from "./assets/github.512x489.png"; 
+import github from "./assets/github.512x489.png";
+
 
 export const projects = [
   {
     title: "Chat GPT to PDF",
     subtitle: "Tecnología Node.js",
     description: "Aplicación que permite generar un chatbot que responda dudas a partir del contenido de un PDF usando la API de OpenAI.",
-    image: chatbot,   
+    image: chatbot,
     link: "https://github.com/carolinaluna24/ChatGptPDF"
   },
 
